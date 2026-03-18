@@ -1,4 +1,4 @@
-# Astro Starter Kit: Basics
+# Oro Líquido El Legado del Ron Venezolano
 
 ```sh
 npm create astro@latest -- --template basics
