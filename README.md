@@ -1,5 +1,6 @@
 # Oro Líquido El Legado del Ron Venezolano
 
+"Este proyecto es para mostrar la historia del ron venezolano"
 ```sh
 npm create astro@latest -- --template basics
 ```
