@@ -5,7 +5,10 @@ import "../styles/global.css";
 
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
+		<body class="font-bold bg-[#ffffff] text-black">
+			
+		</body>
+		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
@@ -13,24 +16,19 @@ import "../styles/global.css";
 		<title>El Corazon del Caribe en una Copa</title>
 	</head>
 	<body>
-		<header>
-			<p>Un Legado Nacido Del Sol y La Tierra</p>
-
-			<div>
+		<header class="flex justify-between items-center p-6 bg-white italic">
+			<p class="text-[#A3691E]">Un Legado Nacido Del Sol y La Tierra</p>
+			<div class="flex gap-6">
 				<a href="/">Historia</a>
 				<a href="/certificacion">Certificación</a>
 				<a href="/cocteles">Cocteles</a>
 				<a href="/procesos">Procesos</a>
 				<a href="/catalago">Catalago</a>
-				<header>
-					<Icon name="icono1" size={32} />
-				</header>
 			</div>
 
-			<div>
-				<a href="/un-legado-nacido-del-sol-y-la-tierra">Registrarme</a>
-				<a href="/buscar">Buscar</a>
-				<a href="/iniciar-sesion">Iniciar Sesion</a>
+			<div class="flex justify-between gap-4">
+				<Icon name="icono1" size={32} />
+				<button class="font-bold bg-[#A3691E] text-amber-50 px-10 py-3">Reservar Ahora</button>
 			</div>
 		</header>
 
