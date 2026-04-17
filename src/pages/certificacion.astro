@@ -3,13 +3,13 @@ import Layout from "../layouts/Layout.astro"
 ---
 
 <Layout>
-    <section class="text-white flex items-center p-24">
+    <section class="text-black	 flex items-center p-24 dark:bg-neutral-950 dark:text-white">
 
 
 		<div class="flex flex-col flex-1">
 			<p class="text-amber-200">Origen de Reserva</p>
-			<p class="text-[#ffffff] text-5xl font-bold">El Alma de la <br> Oscuridad</p>
-			<p class="text-white py-6">
+			<p class="text-[#000000] text-5xl font-bold">El Alma de la <br> Oscuridad</p>
+			<p class="text-black py-6">
 				Nacido de la mezcla volcánica y envejecido en el silencio de
 			nuestras bodegas de obsidiana. Un tributo a la paciencia y en el
 				arte del ron venezolano
@@ -30,12 +30,12 @@ import Layout from "../layouts/Layout.astro"
 
 
 
-	<section class="bg-surface-container-low px-12 py-12 text-black -50 bg-[#ffffff]">
+	<section class="bg-surface-container-low px-12 py-12 text-black -50 bg-white[#000000] dark:bg-neutral-950">
 		<div class="flex flex-1 items-center gap-12">
-			<img class="w-72 h-72" src="/foto2.png"alt="" />
+			<img class="w-72 h-72 shadow-[0_0_700px] shadow-amber-500/40" src="/foto2.png"alt="" />
 			<div class="max-w-7xl mx-auto flex-col items-center p-24">
-				<p class="text-amber-200">DENOMINACION DE ORIGEN CONTROLADA</p>
-				<p>
+				<p class=" text-black text-4xl">DENOMINACION DE ORIGEN CONTROLADA</p>
+				<p class="py-5">
 					Cada gota de obsidian esta protegida por la ley. Nuestra
 					certificación D.O.C garantiza que el ron ha sido envejecido
 					en barricas de roble blanco por un minimo de dos años, sin
@@ -43,10 +43,10 @@ import Layout from "../layouts/Layout.astro"
 					venezolano
 				</p>
 				<div class="flex gap-12 mt-6">
-					<div>100% CAÑA LOCAL</div>
-					<div>40% ALC.VOL MIN.</div>
+					<div  class="bg-amber-500 text-white py-2 px-4 rounded hover:bg-amber-600">100% CAÑA LOCAL</div>
+					<div  class="bg-amber-500 text-white py-2 px-4 rounded hover:bg-amber-600">40% ALC.VOL MIN.</div>
 
-					<div>NACIONAL ORGULLO</div>
+					<div class="bg-amber-500 text-white py-2 px-4 rounded hover:bg-amber-600">ORGULLO NACIONAL</div>
 				</div>
 			</div>
 		</div>
