@@ -6,12 +6,37 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-	<section class="bg-[#000000] text-amber-50">
+	<section class="relative h-screen w-full overflow-hidden  dark:bg-neutral-950 dark:text-white">
+		<img
+			class="absolute inset-0 w-full h-full object-cover brightness-50"
+			src="/inicio.png"
+			alt=""
+		/>
+		<div
+			class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4"
+		>
+			<p class="text-yellow-600 font-bold text-xs uppercase mb-2">
+				Legado de Sangre y Caña
+			</p>
+			<p class="text-white text-5xl md:text-7xl font-serif mb-4">
+				Nuestra Historia
+			</p>
+			<div>
+				<p
+					class="text-yellow-100 italic text-sm md:text-base max-w-xl leading-relaxed"
+				>
+					"El ron no se fabrica, se cultiva. Es el susurro de la
+					tierra venezolana atrapado en cristal oscuro."
+				</p>
+			</div>
+		</div>
+	</section>
+	<section class=" bg-amber-50 text-amber-50 py-20 px-10  dark:bg-neutral-950 dark:text-white">
 		<div>
 			<div>
 				<div>
 					<p class="uppercase">Los Artesanos</p>
-					<p class="text-[#A3691E]">Maestros del Templado </p>
+					<p class="text-[#A3691E]">Maestros del Templado</p>
 				</div>
 				<div>
 					<p>
@@ -22,119 +47,217 @@ import Layout from "../layouts/Layout.astro";
 			</div>
 
 			<div>
-				<div>
-					<img src="/imagen3.png" alt="" />
-					<div>
-						<p>Elena Rodríguez</p>
-						<p class="text-[#A3691E]">Maestra Ronera Principal</p>
-						<p>
-							Con mas de 30 años de experiencia,Elena slecciona
+				<div class="flex items-center justify-between gap-10 mb-24">
+					<div class="flex-1">
+						<p class="text-3xl font-serif mb-2">Elena Rodríguez</p>
+						<p
+							class="text-[#A3691E] font-bold uppercase tracking-widest text-sm mb-4"
+						>
+							Maestra Ronera Principal
+						</p>
+						<p class="text-gray-400 leading-relaxed max-w-lg">
+							Con más de 30 años de experiencia, Elena selecciona
 							personalmente cada barrica, buscando notas de cuero
 							y cacao amargo.
 						</p>
 					</div>
+					<div class="flex-1">
+						<img
+							src="/imagen3.png"
+							alt="Elena"
+							class="w-full h-auto grayscale hover:grayscale-0 transition duration-500 shadow-2xl"
+						/>
+					</div>
 				</div>
 
-				<div>
-					<img src="/imagen4.png" alt="" />
-					<div>
-						<p>Carlos Mendoza</p>
-						<p  class="text-[#A3691E]">Arquitetura de Maduración</p>
-						<p>
-							Especialista en madera,carlos es el responsable del
-							innovador proceso de tostado de nuestras barricas de
-							obsidiana
+				<div
+					class="flex flex-row-reverse items-center justify-between gap-10 mb-24"
+				>
+					<div class="flex-1">
+						<p class="text-3xl font-serif mb-2">Carlos Mendoza</p>
+						<p
+							class="text-[#A3691E] font-bold uppercase tracking-widest text-sm mb-4"
+						>
+							Arquitectura de Maduración
 						</p>
+						<p class="text-gray-400 leading-relaxed max-w-lg">
+							Especialista en madera, Carlos es el responsable del
+							innovador proceso de tostado de nuestras barricas de
+							obsidiana.
+						</p>
+					</div>
+					<div class="flex-1">
+						<img
+							src="/imagen4.png"
+							alt="Carlos"
+							class="w-full h-auto grayscale hover:grayscale-0 transition duration-500 shadow-2xl"
+						/>
+					</div>
+				</div>
+
+				<div class="flex items-center justify-between gap-10">
+					<div class="flex-1">
+						<p class="text-4xl font-serif mb-6 text-[#A3691E]">
+							El Génesis en los Valles de Aragua
+						</p>
+						<div class="space-y-4">
+							<p class="text-gray-400 leading-relaxed max-w-lg">
+								En el corazón de Venezuela, donde el sol abrasa
+								la tierra y la humedad abraza las hojas de caña,
+								nació la visión de Obsidian Cellar.
+							</p>
+							<p class="text-gray-400 leading-relaxed max-w-lg">
+								Nuestros fundadores entendieron que el roble
+								blanco americano no era solo un contenedor, sino
+								un cómplice silencioso.
+							</p>
+						</div>
+					</div>
+					<div class="flex-1 relative">
+						<img
+							src="/imagen5.png"
+							alt="Genesis"
+							class="w-full h-auto grayscale hover:grayscale-0 transition duration-500 shadow-2xl"
+						/>
+						<div
+							class="absolute bottom-0 right-0 bg-[#A3691E] px-4 py-2"
+						>
+							<p
+								class="text-[10px] font-bold text-black uppercase"
+							>
+								Fundación Original
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="bg-[#000000] text-amber-50">
-		<div >
-			<p class="text-[#A3691E]">El Genesis en los Valles de Aragua</p>
-			<p>
-				En el corazón de Venezuela, donde el solo abrasa la tierra y la
-				humedad abraza las hojas de caña, nació la visión de Obsidia
-				Cellar.No buscamos cantidad,sino la esencia pura de la
-				destilación artesanal bajo el estandar de la Denominación de
-				Origen Controlada.
-			</p>
-			<p>
-				Nuestros fundadores entendieron que el roble blanco americano no
-				era solo un contenedor, sino un cómplice silencioso que
-				transformaría ek aguardiente áspero en una seda líquida color
-				color ámbar.
+	<section class="bg-amber-50 text-amber-50 py-20 px-12  dark:bg-neutral-950 dark:text-white">
+		<div class="mb-16">
+			<p class="text-4xl font-serif mb-2">Hitos de Maestría</p>
+			<p
+				class="text-[#A3691E] text-xs font-bold tracking-[0.2em] uppercase"
+			>
+				Cronología del Ron Obsidian
 			</p>
 		</div>
-		<div>
-			<img src="/imagen5.png" alt="" />
-		</div>
-	</section>
-	<section class="bg-[#000000] text-amber-50">
-		<div>
-			<p>Historia de Maestía</p>
-			<p class="text-[#A3691E]">CRONOLOGÍA RON OBSIDIAN</p>
-		</div>
-		<div>
-			<div>
-				<p class="text-[#A3691E]">1924</p>
-				<p>La Primera Cosecha Real</p>
-				<p>
-					Tres años de experimentación, se sello el primer barril con
-					el emblema de Obsidiana, marcando el inicio de nuestra
+
+		<div class="flex gap-8">
+			<div class="flex-1 border-t border-gray-800 pt-6 relative">
+				<div
+					class="absolute -top-1.5 left-0 w-3 h-3 bg-[#A3691E] rounded-full shadow-[0_0_10px_#A3691E]"
+				>
+				</div>
+
+				<p class="text-[#A3691E] text-3xl font-serif mb-4">1924</p>
+				<p class="font-bold text-lg mb-4">La Primera Cosecha Real</p>
+				<p class="text-gray-500 text-sm leading-relaxed">
+					Tras años de experimentación, se selló el primer barril con
+					el emblema de la Obsidiana, marcando el inicio de nuestra
 					reserva privada.
 				</p>
 			</div>
-			<div>
-				<p class="text-[#A3691E]">1952</p>
-				<p>Innovación en Alambiques</p>
-				<p>
-					Incorporamos los alambiques de cobre de cuello de
-					cisne,permitiendo una extracción de aromas florales sin
-					precedentes en el Caribe
+
+			<div class="flex-1 border-t border-gray-800 pt-6 relative">
+				<div
+					class="absolute -top-1.5 left-0 w-3 h-3 bg-[#A3691E]/30 rounded-full"
+				>
+				</div>
+
+				<p class="text-[#A3691E] text-3xl font-serif mb-4">1952</p>
+				<p class="font-bold text-lg mb-4">Innovación en Alambiques</p>
+				<p class="text-gray-500 text-sm leading-relaxed">
+					Incorporamos los alambiques de cobre de cuello de cisne,
+					permitiendo una extracción de aromas florales sin
+					precedentes en el Caribe.
 				</p>
 			</div>
-			<div>
-				<p class="text-[#A3691E]">1988</p>
-				<p>Certificaón de D.O.C.</p>
-				<p>
+
+			<div class="flex-1 border-t border-gray-800 pt-6 relative">
+				<div
+					class="absolute -top-1.5 left-0 w-3 h-3 bg-[#A3691E]/30 rounded-full"
+				>
+				</div>
+
+				<p class="text-[#A3691E] text-3xl font-serif mb-4">1988</p>
+				<p class="font-bold text-lg mb-4">Certificación D.O.C.</p>
+				<p class="text-gray-500 text-sm leading-relaxed">
 					Fuimos pioneros en la estandarización del Ron de Venezuela,
 					protegiendo la calidad y el nombre de nuestra herencia
 					nacional.
 				</p>
 			</div>
+
+			<div class="flex-1 border-t border-gray-800 pt-6 relative">
+				<div
+					class="absolute -top-1.5 left-0 w-3 h-3 bg-[#A3691E]/30 rounded-full"
+				>
+				</div>
+
+				<p class="text-[#A3691E] text-3xl font-serif mb-4">2024</p>
+				<p class="font-bold text-lg mb-4">El Mañana de la Obsidiana</p>
+				<p class="text-gray-500 text-sm leading-relaxed">
+					Hoy, Obsidian Cellar se erige como un faro de lujo
+					sostenible, fusionando técnicas ancestrales con tecnología
+					de precisión.
+				</p>
+			</div>
 		</div>
 	</section>
-	<section class="bg-[#000000] text-amber-50">
-		<div>
-			<div>
-				<div><img src="/imagen6.png" alt="" /></div>
-				<div>
-					<div>
-						<p>La perfección no se Apresura</p>
-						<p>
-							Cada botella de Obsidian es sometida a un riguroso
-							proceso de evaluación sensorial. Desde la selección
-							de la melaza tipo A hasta el tostado específico de
-							cada barrica, mantenemos un estándar de excelencia
-							que honra nuestro pasado.
-						</p>
-						<div>
-							<p>TERRIOR</p>
-							<p>Valle de ARAGUA,VENEZUELA</p>
-							<p>MADURACIÓN</p>
-							<p>MÍNIMO 12 AÑOS</p>
-						</div>
+	<section class=" bg-amber-50 text-amber-50 py-20 px-12  dark:bg-neutral-950 dark:text-white">
+		<div class="max-w-6xl mx-auto flex items-center gap-20">
+			<div class="flex-1 flex justify-center">
+				<div
+					class="relative w-64 h-64 border border-gray-800 rounded-xl flex flex-col items-center justify-center bg-[#111] shadow-2xl"
+				>
+					<p class="text-[#A3691E] text-7xl font-serif">100</p>
+					<p
+						class="text-[#A3691E] text-[10px] font-bold tracking-[0.2em] uppercase mt-2"
+					>
+						Puntaje Artesanal
+					</p>
+
+					<div class="absolute -bottom-10 w-full flex justify-center">
+						<p class="text-[#A3691E] text-6xl font-light"></p>
 					</div>
 				</div>
 			</div>
-			<div>
-				<img src="imagen7.png" alt="">
-				<div>
-					<img src="imagen8.png" alt="">
-					<img src="imagen9.png" alt="">
+
+			<div class="flex-[1.5] ">
+				<div class="mb-10">
+					<p class="text-5xl font-serif mb-6">
+						La Perfección no se Apresura
+					</p>
+					<p class="text-gray-400 leading-relaxed text-lg max-w-2xl">
+						Cada botella de Obsidian es sometida a un riguroso
+						proceso de evaluación sensorial. Desde la selección de
+						la melaza tipo A hasta el tostado específico de cada
+						barrica, mantenemos un estándar de excelencia que honra
+						nuestro pasado.
+					</p>
+				</div>
+
+				<div class="w-full h-[1px] bg-gray-800 mb-8"></div>
+
+				<div class="flex gap-20">
+					<div>
+						<p
+							class="text-[#A3691E] text-[10px] font-bold tracking-widest uppercase mb-2"
+						>
+							Terroir
+						</p>
+						<p class="text-xl font-serif">Valle de Aragua, VZ</p>
+					</div>
+					<div>
+						<p
+							class="text-[#A3691E] text-[10px] font-bold tracking-widest uppercase mb-2"
+						>
+							Maduración
+						</p>
+						<p class="text-xl font-serif">Mínimo 12 Años</p>
+					</div>
 				</div>
 			</div>
 		</div>

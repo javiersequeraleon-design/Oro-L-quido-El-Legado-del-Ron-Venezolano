@@ -3,115 +3,289 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-    <section class="text-white">
-        <div>
-            <p>El viaje alquímico</p>
-            <p>El Proceso Sagrado DOC</p>
-            <p>
-                La elaboración del ron venezolano es un ejercicio de paciencia y
+    <section>
+        <div class="bg-[#0a0a0a] text-white px-20 py-24 flex flex-col gap-8">
+            <div
+                class="text-amber-600 text-xs tracking-[0.3em] uppercase font-sans"
+            >
+                El Viaje Alquímico
+            </div>
+
+            <div class="text-7xl font-serif leading-tight">
+                El Sagrado <div class="italic text-amber-100 opacity-90 inline">
+                    Proceso D.O.C.
+                </div>
+            </div>
+
+            <p
+                class="text-zinc-400 text-lg leading-relaxed max-w-3xl font-sans opacity-80"
+            >
+                La elaboración del Ron Venezolano es un ejercicio de paciencia y
                 precisión. Desde el suelo volcánico de los cañaverales hasta el
-                roble tostado de la bodega, cada gota está protegida por la
+                roble carbonizado de la bodega, cada gota está protegida por la
                 Denominación de Origen Controlada.
             </p>
         </div>
     </section>
-    <section class="text-white">
-        <div>
-            <div>
-                <img src="procesos1.png" alt="" />
-                <div>
-                    <p>01</p>
-                    <p>La Cosecha Noble</p>
-                    <p>
+    <section>
+        <div
+            class="bg-[#0a0a0a] flex flex-row gap-6 px-16 py-12 text-white font-serif"
+        >
+            <div class="relative w-1/2 rounded-sm overflow-hidden h-[500px]">
+                <img
+                    src="/imagen8.png"
+                    alt="Cosecha"
+                    class="w-full h-full object-cover opacity-60"
+                />
+
+                <div class="absolute inset-0 bg-black/30"></div>
+
+                <div
+                    class="absolute bottom-12 left-12 flex flex-col gap-4 max-w-sm"
+                >
+                    <div class="text-amber-500 text-5xl">01</div>
+                    <div class="text-3xl">La Cosecha Noble</div>
+                    <p class="text-zinc-300 text-sm font-sans leading-relaxed">
                         Nuestro viaje comienza con la selección de variedades de
-                        caña de azúcar de primera calidad, cultivadas en el
-                        microclima único del Valle de Aragua. El alto contenido
-                        mineral del suelo produce melaza de una riqueza
-                        inigualable.
+                        caña de azúcar premium, cultivadas en el microclima
+                        único del Valle de Aragua.
                     </p>
                 </div>
+
+                <div class="absolute top-10 right-10 w-10 h-[2px] bg-amber-600">
+                </div>
             </div>
-            <div>
-                <p>Fase II: Transformación biológica</p>
-                <p>Fermentación pura</p>
-                <div>
-                    <div>
-                        <p>CIENCIA</p>
-                        <p>
-                            Levadura patentada Una variedad secreta cultivada
-                            desde 1952, diseñada para extraer profundas notas
-                            florales tropicales.
+
+            <div
+                class="bg-[#1a1a1a] w-1/2 p-16 flex flex-col gap-10 border-l border-amber-900/40"
+            >
+                <div class="flex flex-col gap-4">
+                    <div
+                        class="text-zinc-500 text-[10px] uppercase tracking-[0.2em] font-sans"
+                    >
+                        Fase II: Transformación Biológica
+                    </div>
+                    <div class="text-amber-500 text-4xl">Fermentación Pura</div>
+                </div>
+
+                <div class="flex flex-col gap-8">
+                    <div class="flex flex-col gap-2">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="text-amber-600 text-xl italic font-sans font-bold"
+                            >
+                                Δ
+                            </div>
+                            <div class="text-white text-lg font-sans">
+                                Levadura Propietaria
+                            </div>
+                        </div>
+                        <p
+                            class="text-zinc-400 text-xs font-sans leading-relaxed pl-8"
+                        >
+                            Una cepa secreta cultivada desde 1952, diseñada para
+                            extraer notas florales tropicales profundas.
                         </p>
                     </div>
-                    <div>
-                        <p>TERMOSTATO</p>
-                        <p>
-                            Temperaturas controladas Los ciclos de enfriamiento
-                            continuos garantizan que los delicados ésteres nunca
-                            se quemen durante el período de máxima demanda de 48
-                            horas.
+
+                    <div class="flex flex-col gap-2">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="text-amber-600 text-xl italic font-sans font-bold"
+                            >
+                                Ξ
+                            </div>
+                            <div class="text-white text-lg font-sans">
+                                Temperaturas Controladas
+                            </div>
+                        </div>
+                        <p
+                            class="text-zinc-400 text-xs font-sans leading-relaxed pl-8"
+                        >
+                            Ciclos de enfriamiento continuos aseguran que los
+                            delicados ésteres nunca se quemen durante el pico de
+                            48 horas.
                         </p>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div>
-                <div>
-                    <p>02</p>
-                    <p>Corazón de cobre</p>
-                </div>
-                <div>
-                    <p>
-                        La destilación se realiza en alambiques de cobre
-                        tradicionales. Este método artesanal nos permite
-                        seleccionar únicamente la esencia del destilado,
-                        descartando las impurezas.
-                    </p>
-                </div>
-                <div>
-                    <p>Pureza: 96,5% vol.</p>
-                    <p>Alambique: N.° 04</p>
-                </div>
-            </div>
-            <div>
-                <img src="/procesos3.png" alt="" />
-                <div>
-                    <p>EL SUEÑO SILENCIOSO</p>
-                    <p>
-                        Cada barril está hecho de roble blanco americano,
-                        previamente utilizado para el bourbon. El destilado
-                        respira a través de la madera, perdiendo la "parte de
-                        los ángeles" debido al calor venezolano mientras
-                        adquiere su profundo tono obsidiana.
-                    </p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="text-white">
-        <div>
-            <div>
-                <p>100</p>
-                <p>PUNTUACIÓN ARTESANAL</p>
+    <section>
+        <div
+            class="bg-[#0a0a0a] flex flex-row gap-6 px-16 py-12 text-white font-serif"
+        >
+            <div
+                class="bg-[#111111] w-1/3 p-12 flex flex-col gap-6 border-t border-amber-900/30"
+            >
+                <div class="text-amber-500 text-5xl">02</div>
+                <div class="text-3xl">Corazón de Cobre</div>
+
+                <p class="text-zinc-400 text-sm font-sans leading-relaxed mt-4">
+                    La destilación se lleva a cabo en alambiques de cobre
+                    tradicionales. Este método artesanal nos permite seleccionar
+                    solo el "corazón" del alcohol, descartando impurezas.
+                </p>
+
+                <div
+                    class="flex justify-between border-t border-zinc-800 pt-6 mt-auto text-[10px] uppercase tracking-widest font-sans text-zinc-500"
+                >
+                    <div>Pureza: 96.5% ABV</div>
+                    <div>Alambique: No. 04</div>
+                </div>
             </div>
-            <div>
-                <div>
-                    <p>ENVEJECIMIENTO</p>
-                    <p>2 años.</p>
+
+            <div class="relative w-2/3 rounded-sm overflow-hidden h-[500px]">
+                <img
+                    src="bodega.jpg"
+                    alt="Bodega de Barriles"
+                    class="w-full h-full object-cover grayscale opacity-40"
+                />
+
+                <div
+                    class="absolute inset-0 flex flex-col justify-end p-16 bg-gradient-to-t from-black/80 to-transparent"
+                >
+                    <div
+                        class="flex flex-col gap-4 max-w-lg self-end text-right"
+                    >
+                        <div class="text-6xl italic text-amber-100 opacity-90">
+                            El Sueño Silencioso
+                        </div>
+                        <p
+                            class="text-zinc-300 text-sm font-sans leading-relaxed"
+                        >
+                            Cada barrica está hecha de Roble Blanco Americano.
+                            El destilado respira a través de la madera,
+                            perdiendo la "parte de los ángeles" ante el calor
+                            venezolano mientras adquiere su profundo tono
+                            obsidiana.
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <p>TIPO DE BARRRIL</p>
-                    <p>Roble Blanco</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div
+            class="bg-[#111111] px-16 py-12 flex flex-row items-center justify-between gap-10"
+        >
+            <div class="border border-amber-900/40 p-1 rounded-sm">
+                <div
+                    class="bg-[#1a1a1a] border border-amber-600/30 px-8 py-10 flex flex-col items-center gap-2 rounded-sm"
+                >
+                    <div class="text-amber-500 text-5xl font-serif">100</div>
+                    <div
+                        class="text-[9px] text-zinc-500 uppercase tracking-[0.2em] font-sans"
+                    >
+                        Puntaje Artesanal
+                    </div>
                 </div>
-                <div>
-                    <p>CERTIFICADO POR EL DEPARTAMENTO DE CORRECIONES</p>
-                    <p>Sí</p>
+            </div>
+
+            <div class="flex flex-row justify-between flex-1 px-10">
+                <div class="flex flex-col gap-3">
+                    <div
+                        class="text-zinc-600 text-[10px] uppercase tracking-widest font-sans"
+                    >
+                        Añejamiento Mínimo
+                    </div>
+                    <div class="text-white text-2xl font-serif italic">
+                        2 Años
+                    </div>
                 </div>
-                <div>
-                    <p>ORIGEN</p>
-                    <p>Aragua,Venezuela.</p>
+
+                <div class="flex flex-col gap-3">
+                    <div
+                        class="text-zinc-600 text-[10px] uppercase tracking-widest font-sans"
+                    >
+                        Tipo de Barrica
+                    </div>
+                    <div class="text-white text-2xl font-serif italic">
+                        Roble Blanco
+                    </div>
                 </div>
+
+                <div class="flex flex-col gap-3">
+                    <div
+                        class="text-zinc-600 text-[10px] uppercase tracking-widest font-sans"
+                    >
+                        Certificado D.O.C.
+                    </div>
+                    <div class="text-white text-2xl font-serif italic">Sí</div>
+                </div>
+
+                <div class="flex flex-col gap-3">
+                    <div
+                        class="text-zinc-600 text-[10px] uppercase tracking-widest font-sans"
+                    >
+                        Origen
+                    </div>
+                    <div class="text-white text-2xl font-serif italic">
+                        Aragua, VE
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div
+            class="bg-[#0a0a0a] py-32 flex flex-col items-center gap-10 text-center"
+        >
+            <div class="text-white text-5xl font-serif">
+                Prueba el Resultado de <br />
+                <div class="italic text-amber-500 inline">
+                    Décadas de Maestría
+                </div>
+            </div>
+
+            <div
+                class="flex flex-row gap-4 font-sans text-[11px] uppercase tracking-[0.2em] font-bold"
+            >
+                <div
+                    class="bg-[#a36e29] text-white px-10 py-4 cursor-pointer hover:bg-[#8c5d21] transition-colors rounded-sm"
+                >
+                    Explorar el Catálogo
+                </div>
+                <div
+                    class="border border-zinc-700 text-white px-10 py-4 cursor-pointer hover:bg-white hover:text-black transition-all rounded-sm"
+                >
+                    Reservar Tour de Destilería
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="bg-[#050505] pt-40 pb-12 flex flex-col items-center gap-16 border-t border-white/5"
+        >
+            <div class="text-amber-500 font-serif italic text-xl">
+                Obsidian Cellar
+            </div>
+
+            <div
+                class="flex flex-row gap-8 text-zinc-500 text-[10px] uppercase tracking-widest font-sans"
+            >
+                <div class="cursor-pointer hover:text-white transition-colors">
+                    Sostenibilidad
+                </div>
+                <div class="cursor-pointer hover:text-white transition-colors">
+                    Legal
+                </div>
+                <div class="cursor-pointer hover:text-white transition-colors">
+                    Privacidad
+                </div>
+                <div class="cursor-pointer hover:text-white transition-colors">
+                    Kit de Prensa
+                </div>
+                <div class="cursor-pointer hover:text-white transition-colors">
+                    Tours
+                </div>
+            </div>
+
+            <div
+                class="text-zinc-700 text-[9px] uppercase tracking-tighter font-sans"
+            >
+                © 2026 OBSIDIAN CELLAR. RON ARTESANAL VENEZOLANO. CERTIFICADO
+                D.O.C.
             </div>
         </div>
     </section>

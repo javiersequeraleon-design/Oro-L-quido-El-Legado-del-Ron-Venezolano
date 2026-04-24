@@ -3,91 +3,122 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-    <section class="text-white">
-        <div>
-            <p>Colección Distintiva</p>
-            <p>Nuestra Herencia</p>
-            <p>
-                Desde las tierras doradas de Venezuela, presentamos una
-                selección curada de rones envejecidos bajo el rigor del sol y la
-                calma de la bodega.
-            </p>
-        </div>
+    <section>
+        <div class="bg-[#0a0a0a] text-white px-20 py-28 flex flex-col items-center text-center gap-6">
+
+  <div class="text-amber-600 text-[10px] uppercase tracking-[0.4em] font-sans">
+    Colección Distintiva
+  </div>
+
+  <div class="text-8xl font-serif italic tracking-tight opacity-95">
+    Nuestra Herencia
+  </div>
+
+  <p class="text-zinc-400 text-base leading-relaxed max-w-2xl font-sans mt-4 opacity-80">
+    Desde las tierras doradas de Venezuela, presentamos una selección curada de 
+    rones envejecidos bajo el rigor del sol y la calma de la bodega.
+  </p>
+
+</div>
     </section>
-    <section class="text-white">
-        <div>
-            <div>
-                <div>
-                    <img src="/Pampero Aniversario.png" alt="" />
-                    <p>RON PAMPERO A</p>
-                    <p>
-                        Pampero Aniversario Reconocible por su icónica bolsa de
-                        cuero, es un ron premium creado para celebrar el 25
-                        aniversario de la destilería. Es oscuro, denso y muy
-                        aromático. Notas: Madera intensa, jerez, vainilla y
-                        caramelo.
-                    </p>
-                </div>
-                <div>
-                    <img src="Diplomático Reserva Exclusiva.png" alt="" />
-                    <p>RON DIPLOMÁTICO RESERVA EXCLUSIVA</p>
-                    <p>
-                        Diplomático Reserva Exclusiva Probablemente el ron
-                        venezolano más conocido internacionalmente. Es un ron
-                        "sipping" (para tomar solo) muy complejo y dulce. Notas:
-                        Caramelo, chocolate negro, cáscara de naranja y
-                        vainilla. Dato: Es un ícono de las Destilerías Unidas
-                        (DUSA) y ganador constante de medallas de oro.
-                    </p>
-                </div>
-                <div>
-                    <img src="roble viejo.png" alt="" />
-                    <p>RON ROBLE VIEJO (ULTRA AÑEJO)</p>
-                    <p>
-                        Ron Roble Viejo (Ultra Añejo) Un ron más joven en el
-                        mercado pero que ha escalado rápidamente por su altísima
-                        calidad. No utiliza azúcares añadidos ni colorantes.
-                        Notas: Frutos secos, madera y un final largo y complejo.
-                    </p>
-                </div>
+    <section>
+        <div class="bg-[#0a0a0a] px-16 py-12 flex flex-col gap-12 text-white font-serif">
+    
+      <div class="flex flex-row gap-8">
+        
+        <div class="flex flex-col gap-5 w-1/3 group">
+          <div class="relative bg-zinc-900 rounded-sm overflow-hidden aspect-[4/5]">
+            <img src="/Pampero Aniversario.png" alt="Pampero Aniversario" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700">
+            <div class="absolute top-4 left-4 bg-black/40 backdrop-blur-md px-3 py-1 text-[9px] uppercase tracking-widest font-sans border border-white/10">
+              Edición 25 Aniversario
             </div>
-            <div>
-                <div>
-                    <img src="ron calazan.png" alt="" />
-                    <p>RON CALAZAN(RESERVA)</p>
-                    <p>
-                        Ron Calazan (Añejo Reserva) Originario del estado
-                        Monagas, ha sorprendido en los últimos años ganando
-                        múltiples medallas de oro en competencias como la San
-                        Francisco World Spirits Competition. Notas: Frutas
-                        rojas, ciruelas y vainilla.
-                    </p>
-                </div>
-                <div>
-                    <img src="ron carupano.png" alt="" />
-                    <p>RON CARUPARO (21 AÑOS)</p>
-                    <p>
-                        Ron Carúpano (Especialmente el 21) Esta casa es famosa
-                        por tener a una de las pocas maestras roneras del mundo,
-                        Carmen López de Bastidas. Sus rones son elegantes y muy
-                        premiados. Notas: Frutos cítricos, coco, café y madera.
-                        Dato: El Carúpano 21 ha sido premiado repetidamente como
-                        el mejor ron del mundo en su categoría.
-                    </p>
-                </div>
-                <div>
-                    <img src="santa teresa.png" alt="" />
-                    <p>RON SANTA TERESA 1976</p>
-                    <p>
-                        Es considerado por muchos como el estándar de oro del
-                        ron venezolano. Se elabora mediante el método de solera
-                        y es famoso por su perfil seco, suave y equilibrado.
-                        Notas: Nueces caramelizadas, tabaco, miel y especias.
-                        Dato: Recientemente destacado en el top 10 mundial de
-                        Forbes 2025.
-                    </p>
-                </div>
-            </div>
+          </div>
+          <div class="flex flex-col gap-2 px-1">
+            <div class="text-2xl text-amber-100">Pampero Aniversario</div>
+            <p class="text-zinc-400 text-[11px] font-sans leading-relaxed">
+              Reconocible por su icónica bolsa de cuero. Oscuro, denso y aromático con notas de madera intensa, jerez y vainilla.
+            </p>
+            <div class="text-[10px] text-amber-600/80 uppercase tracking-tighter font-sans mt-1">Notas: Madera · Jerez · Caramelo</div>
+          </div>
         </div>
+    
+        <div class="flex flex-col gap-5 w-1/3 group">
+          <div class="relative bg-zinc-900 rounded-sm overflow-hidden aspect-[4/5]">
+            <img src="/diplomatico-reserva.png" alt="Diplomático" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700">
+            <div class="absolute top-0 right-0 bg-amber-600 px-4 py-1 text-[9px] uppercase tracking-widest font-sans font-bold">Ícono DUSA</div>
+          </div>
+          <div class="flex flex-col gap-2 px-1">
+            <div class="text-2xl text-amber-100">Diplomático Reserva</div>
+            <p class="text-zinc-400 text-[11px] font-sans leading-relaxed">
+              El "sipping rum" por excelencia. Complejo y dulce, con matices de chocolate negro, cáscara de naranja y miel.
+            </p>
+            <div class="text-[10px] text-amber-600/80 uppercase tracking-tighter font-sans mt-1">Ganador constante de Medallas de Oro</div>
+          </div>
+        </div>
+    
+        <div class="flex flex-col gap-5 w-1/3 group">
+          <div class="relative bg-zinc-900 rounded-sm overflow-hidden aspect-[4/5]">
+            <img src="roble viejo.png" alt="Roble Viejo" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700">
+          </div>
+          <div class="flex flex-col gap-2 px-1">
+            <div class="text-2xl text-amber-100">Roble Viejo</div>
+            <p class="text-zinc-400 text-[11px] font-sans leading-relaxed">
+              Pureza absoluta sin azúcares añadidos. Un ultra añejo que destaca por sus notas de frutos secos y un final largo y complejo.
+            </p>
+            <div class="text-[10px] text-amber-600/80 uppercase tracking-tighter font-sans mt-1">Calidad Premium · Sin Aditivos</div>
+          </div>
+        </div>
+    
+      </div>
+    
+      <div class="flex flex-row gap-8">
+        
+        <div class="flex flex-col gap-5 w-1/3 group">
+          <div class="relative bg-zinc-900 rounded-sm overflow-hidden aspect-[4/5]">
+            <img src="/ron calazan.png" alt="Ron Calazan" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700">
+          </div>
+          <div class="flex flex-col gap-2 px-1">
+            <div class="text-2xl text-amber-100">Calazan Reserva</div>
+            <p class="text-zinc-400 text-[11px] font-sans leading-relaxed">
+              Orgullo de Monagas. Galardonado en San Francisco por su perfil sorprendente de frutas rojas, ciruelas y vainilla.
+            </p>
+            <div class="text-[10px] text-amber-600/80 uppercase tracking-tighter font-sans mt-1">Revelación del Oriente Venezolano</div>
+          </div>
+        </div>
+    
+        <div class="flex flex-col gap-5 w-1/3 group">
+          <div class="relative bg-zinc-900 rounded-sm overflow-hidden aspect-[4/5]">
+            <img src="/ron carupano.png" alt="Ron Carúpano" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700">
+            <div class="absolute bottom-4 right-4 text-white/20 text-4xl font-serif">21</div>
+          </div>
+          <div class="flex flex-col gap-2 px-1">
+            <div class="text-2xl text-amber-100">Carúpano 21</div>
+            <p class="text-zinc-400 text-[11px] font-sans leading-relaxed">
+              Maestría femenina de Carmen López. Elegante con notas de coco, café y madera. Nombrado mejor ron del mundo en su categoría.
+            </p>
+            <div class="text-[10px] text-amber-600/80 uppercase tracking-tighter font-sans mt-1">Mejor Ron del Mundo · Categoría 21 Años</div>
+          </div>
+        </div>
+    
+        <div class="flex flex-col gap-5 w-1/3 group">
+          <div class="relative bg-zinc-900 rounded-sm overflow-hidden aspect-[4/5]">
+            <img src="/santa teresa.png" alt="Santa Teresa 1796" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700">
+            <div class="absolute top-4 left-4 flex items-center gap-2">
+              <div class="w-6 h-[1px] bg-amber-600"></div>
+              <div class="text-amber-500 text-[9px] uppercase tracking-widest font-sans">Método Solera</div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-2 px-1">
+            <div class="text-2xl text-amber-100">Santa Teresa 1796</div>
+            <p class="text-zinc-400 text-[11px] font-sans leading-relaxed">
+              El estándar de oro. Perfil seco y equilibrado con notas de nueces caramelizadas, tabaco y miel.
+            </p>
+            <div class="text-[10px] text-amber-600/80 uppercase tracking-tighter font-sans mt-1">Top 10 Mundial · Forbes 2025</div>
+          </div>
+        </div>
+    
+      </div>
+    
+    </div>
     </section>
 </Layout>
